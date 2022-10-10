@@ -1,0 +1,8 @@
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.csproj.AssemblyReference.cache
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.csproj.GenerateResource.cache
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.csproj.CoreCompileInputs.cache
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.TrendChart.resources
+B:\Visual studio projects\TrendChartLibrary\bin\Debug\TrendChartLibrary.dll
+B:\Visual studio projects\TrendChartLibrary\bin\Debug\TrendChartLibrary.pdb
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.dll
+B:\Visual studio projects\TrendChartLibrary\obj\Debug\TrendChartLibrary.pdb
