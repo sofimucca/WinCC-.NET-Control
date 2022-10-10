@@ -262,6 +262,7 @@ namespace TrendChartLibrary
             chartArea1.AxisX.MajorGrid.Interval = 10D;
             chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
             chartArea1.AxisX.MinorGrid.Enabled = true;
+            chartArea1.AxisX.Enabled = AxisEnabled.True;
             chartArea1.AxisX.MinorGrid.Interval = 1D;
             chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.Gray;
             chartArea1.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
@@ -269,7 +270,9 @@ namespace TrendChartLibrary
             chartArea1.AxisY.InterlacedColor = System.Drawing.Color.White;
             chartArea1.AxisY.LineColor = System.Drawing.Color.White;
             chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.Maximum = 0D;
             chartArea1.AxisY.Maximum = 1200D;
+            chartArea1.AxisY.Enabled = AxisEnabled.True;
             chartArea1.AxisY.MinorGrid.Enabled = true;
             chartArea1.AxisY.MinorGrid.LineColor = System.Drawing.Color.Gray;
             chartArea1.AxisY.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
