@@ -461,7 +461,8 @@ namespace TrendChartLibrary
                     Legend = "Legend1",
                     MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle,
                     Name = trendName,
-                    ToolTip = "(#VALX,#VALY)"
+                    ToolTip = "#VALX , #VAL"
+ 
 
                 };
 
