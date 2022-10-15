@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\Resource1.Designer.cs">
+    <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Resource1.resx</DependentUpon>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="TrendChart.cs">
       <SubType>UserControl</SubType>
@@ -61,14 +61,26 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Properties\Resource1.resx">
+    <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TrendChart.resx">
       <DependentUpon>TrendChart.cs</DependentUpon>
       <LastGenOutput>TrendChart1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icons8-length-48.png" />
+    <None Include="Resources\icons8-zoom-to-actual-size-48.png" />
+    <None Include="Resources\icons8-zoom-out-48.png" />
+    <None Include="Resources\icons8-zoom-in-48.png" />
+    <None Include="Resources\icons8-zoom-to-extents-48.png" />
+    <None Include="Resources\icons8-zoom-to-fit-48.png" />
+    <None Include="Resources\icons8-length-481.png" />
+    <Content Include="Resources\icons8-statistics-48.png" />
+    <None Include="Resources\icons8-statistics-481.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
